@@ -47,6 +47,7 @@ if(isset($_GET['message_send_successfully'])){
         <li class=nav-item><a class=nav-link href=#skills>Skills</a></li>
         <li class=nav-item><a class=nav-link href=#about>About</a></li>
         <li class=nav-item><a class=nav-link href=#contact>Contact</a></li>
+        <li class=nav-item><a class=nav-link href='./blog.php'>Blog</a></li>
         <li class=nav-item><a class="btn btn-warning" href="images/md_fahad_monshi_resume.pdf" target="_blank">Download
             Resume</a></li>
       </ul>
@@ -165,10 +166,8 @@ if(isset($_GET['message_send_successfully'])){
       <div class=row>
         <div class=col-12>
           <h1>Hi_</h1>
-          <p class=lead>I am Full stack Web developer with 3 plus years of experience able to build a Web presence from
-            the ground up - from concept, navigation, layout and programming. Skilled at writing well-designed, testable
-            and efficient code using current best practices in Web development. Fast learner and hard worker.</p>
-          <button class=button><a href=#portfolio>View Portfolio</a></button>
+          <p class=lead>I am Fahad, a Full Stack Web Developer from Bangladesh. I love to code and learn new technologies. I love to code in my own suitable time that gives me freedom to think  about the project in my own way. I love to travel and learn about different places and different people. </p>
+          <button class=button><a href=#portfolio>View Projects</a></button>
         </div>
       </div>
     </div>

@@ -33,6 +33,7 @@
                 <li class=nav-item><a class=nav-link href=./../index.php#skills>Skills</a></li>
                 <li class=nav-item><a class=nav-link href=./../index.php#about>About</a></li>
                 <li class=nav-item><a class=nav-link href=./../index.php#contact>Contact</a></li>
+                <li class=nav-item><a class=nav-link href=./blog.php>Blogs</a></li>
                 <li class=nav-item><a class="btn btn-warning" href="./../images/md_fahad_monshi_resume.pdf"
                         target="_blank">Download
                         Resume</a></li>
