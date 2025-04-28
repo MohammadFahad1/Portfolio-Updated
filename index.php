@@ -37,7 +37,7 @@ if (isset($_GET['message_send_successfully'])) {
   </section>
   <header class=topHeader id=homeFront>
     <nav class="navbar navbar-expand-md" id=navbar>
-      <a href="./index.php" class=navbar-brand>Md. Fahad Monshi</a>
+      <a href="./index.php" class="navbar-brand logo">MD. FAHAD MONSHI</a>
       <span class="mobilemenu right">
         <li style=list-style:none><button onclick=toggle()><i class="fas fa-bars"></i></button></li>
       </span>
