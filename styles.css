@@ -10,3 +10,27 @@
     margin-bottom: 50px;
 	color:#fff;
 }
+.custom-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.custom-list li {
+	position: relative;
+	padding-left: 25px;
+}
+
+.custom-list li::before {
+	content: '✔';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 20px;
+	width: 20px;
+	border: 2px solid #5a44d4;
+	padding: 0 0 5px 3px;
+	border-radius: 50%;
+	color: #5a44d4;
+	font-weight: bold;
+	font-size: 13px;
+}

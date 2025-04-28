@@ -1,13 +1,13 @@
 <?php
-if(isset($_GET['message_send_successfully'])){
-    echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+if (isset($_GET['message_send_successfully'])) {
+  echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
   <strong>Thank You,</strong> I recived your message. i\'ll reply you soon.
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
 </div>';
-}elseif(isset($_GET['message_not_sent'])){
-    echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+} elseif (isset($_GET['message_not_sent'])) {
+  echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
   <strong>Sorry,</strong> Something went wrong please try again.
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
@@ -48,8 +48,8 @@ if(isset($_GET['message_send_successfully'])){
         <li class=nav-item><a class=nav-link href=#about>About</a></li>
         <li class=nav-item><a class=nav-link href=#contact>Contact</a></li>
         <li class=nav-item><a class=nav-link href='./blog.php'>Blog</a></li>
-        <li class=nav-item><a class="btn btn-warning" href="images/md_fahad_monshi_resume.pdf" target="_blank">Download
-            Resume</a></li>
+        <li class=nav-item><a class="btn btn-warning" href="images/Md_Fahad_Monshi_CV.pdf" target="_blank">Download
+            CV</a></li>
       </ul>
     </nav>
     <section class=header>
@@ -69,7 +69,7 @@ if(isset($_GET['message_send_successfully'])){
                     AGE:
                   </div>
                   <div class="col-10 text-white lead">
-                    20
+                    26
                   </div>
                 </div>
                 <div class="row mb-10">
@@ -77,7 +77,7 @@ if(isset($_GET['message_send_successfully'])){
                     PHONE:
                   </div>
                   <div class="col-10 text-white lead">
-                    +8801793006019
+                    +8801571764180
                   </div>
                 </div>
                 <div class="row mb-10">
@@ -85,7 +85,7 @@ if(isset($_GET['message_send_successfully'])){
                     EMAIL:
                   </div>
                   <div class="col-10 text-white lead">
-                    Fahad4Bangladesh@gmail.com
+                    fahad4bangladesh@gmail.com
                   </div>
                 </div>
                 <div class="row mb-10">
@@ -93,16 +93,16 @@ if(isset($_GET['message_send_successfully'])){
                     ADDRESS:
                   </div>
                   <div class="col-10 text-white lead">
-                    House No.13, Gomti Residential Area, Debidwar, Cumilla
+                    3, 4, 5, K.P Ghosh Street, Armanitola, Dhaka-1100
                   </div>
                 </div>
                 <div class=icon-bar>
                   <a href="https://facebook.com/mdfahad.index" target=_blank class=text-white><i
                       class="fab fa-facebook-square"></i></a>
-                  <a href="https://www.twitter.com/bd_fahad" target=_blank class=text-white><i
+                  <a href="https://www.x.com/bd_fahad" target=_blank class=text-white><i
                       class="fab fa-twitter-square"></i></a>
-                  <a href="https://www.linkedin.com/in/fahad4bd/" target=_blank class=text-white><i
-                      class="fab fa-google-plus-square"></i></a>
+                  <a href="https://github.com/MohammadFahad1/" target=_blank class=text-white><i
+                      class="fab fa-github-square"></i></a>
                   <a href="https://www.linkedin.com/in/fahad4bd/" target=_blank class=text-white><i
                       class="fab fa-linkedin"></i></a>
                 </div>
@@ -165,8 +165,37 @@ if(isset($_GET['message_send_successfully'])){
     <div class=container>
       <div class=row>
         <div class=col-12>
-          <h1>Hi_</h1>
-          <p class=lead>I am Fahad, a Full Stack Web Developer from Bangladesh. I love to code and learn new technologies. I love to code in my own suitable time that gives me freedom to think  about the project in my own way. I love to travel and learn about different places and different people. </p>
+          <h1>About Me_</h1>
+          <p class=lead>My interest in programming started back in 2014 when I first explored editing and customizing
+            web applications. Since then, I have been passionate about building user-friendly, efficient, and dynamic
+            web solutions.
+            <br>
+            Here are some of the technologies I have been working with recently:
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <ul style="margin-left: 20px" class="custom-list ">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>TailwindCSS</li>
+                <li>ReactJs</li>
+                <li>NextJs</li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <ul class="custom-list">
+                <li>NodeJs</li>
+                <li>ExpressJs</li>
+                <li>Firebase</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>Python</li>
+                <li>Django</li>
+              </ul>
+            </div>
+          </div>
+          </p>
           <button class=button><a href=#portfolio>View Projects</a></button>
         </div>
       </div>
@@ -247,31 +276,59 @@ if(isset($_GET['message_send_successfully'])){
           </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
-          BOOTSTRAP/Tailwind CSS
+          BOOTSTRAP
           <div class=skill>
-            90%
+            80%
             <div class=skillExp style=width:90%;background:#e47042></div>
           </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
-          NodeJs
+          TailwindCSS
           <div class=skill>
-            95%
+            85%
+            <div class=skillExp style=width:90%;background:#e47042></div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          NextJs
+          <div class=skill>
+            80%
             <div class=skillExp style=width:95%;background:#47e978></div>
           </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
-          Express Js
+          NodeJs/Express Js
           <div class=skill>
-            80%
-            <div class=skillExp style=width:80%;background:#8047e9></div>
+            90%
+            <div class=skillExp style="width:95%;background:rgb(2, 159, 151)"></div>
           </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
           MongoDB
           <div class=skill>
-            75%
+            70%
+            <div class=skillExp style="width:75%;background:rgb(129, 3, 9)"></div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          MySQL
+          <div class=skill>
+            85%
+            <div class=skillExp style="width:80%;background:rgb(12, 142, 58)"></div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          Python
+          <div class=skill>
+            90%
             <div class=skillExp style=width:75%;background:#c002b0></div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          Django
+          <div class=skill>
+            95%
+            <div class=skillExp style=width:80%;background:#8047e9></div>
           </div>
         </div>
       </div>
@@ -286,8 +343,8 @@ if(isset($_GET['message_send_successfully'])){
         <div class=col-12>
           <div class="autoplay utslider">
             <div class=utslide>
-              <img src=images/clients/image01.jpg>
-              <h2>Dianna C. Garza</h2>
+              <img src="images/clients/image01.jpg" height="100" width="100">
+              <h2>Samim Sarkar</h2>
               <p><i class="fas fa-quote-left"></i>Great Worker with awsome skill's. i'll deffenietly hire him again.<i
                   class="fas fa-quote-right"></i></p>
             </div>
@@ -437,17 +494,17 @@ if(isset($_GET['message_send_successfully'])){
     <div class=row>
       <div class=col-lg-12>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50042.80837614546!2d90.9519902623539!3d23.600900676867088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37546f30605b9363%3A0xd833fe28800320a3!2sDebidwar!5e1!3m2!1sen!2sbd!4v1565146822210!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d228.30737482526175!2d90.40344033344101!3d23.714622243947407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s5%20k.p%20ghsh%20street%2C%20armanitola%2C%20Dhaka!5e0!3m2!1sbn!2sbd!4v1745824123615!5m2!1sbn!2sbd"
           width=100% height=450 frameborder=0 style=border:0 allowfullscreen></iframe>
       </div>
     </div>
   </section>
   <section class=footer>
-    <h5>Copyright &copy; Mohammad Fahad (2015 - 2019)</h5>
-    <a href=https://facebook.com/mdfahad.index><i class="fab fa-facebook"></i></a>
-    <a href=https://twitter.com/bd_fahad><i class="fab fa-twitter-square"></i></a>
-    <a href=https://facebook.com/mdfahad.index><i class="fab fa-google-plus"></i></a>
-    <a href=https://facebook.com/mdfahad.index><i class="fab fa-linkedin"></i></a>
+    <h5>Copyright &copy; Md. Fahad Monshi (2015 - 2019)</h5>
+    <a href=https://facebook.com/mdfahad.index target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href=https://x.com/bd_fahad target="_blank"><i class="fab fa-twitter-square"></i></a>
+    <a href=https://github.com/MohammadFahad1/ target="_blank"><i class="fab fa-github"></i></a>
+    <a href=https://www.linkedin.com/in/fahad4bd/ target="_blank"><i class="fab fa-linkedin"></i></a>
   </section>
   <script src=js/jquery-3.4.1.min.js type=text/javascript></script>
   <script src=js/bootstrap.min.js type=text/javascript></script>
