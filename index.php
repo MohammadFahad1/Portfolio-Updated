@@ -172,8 +172,8 @@ if (isset($_GET['message_send_successfully'])) {
             <br>
             Here are some of the technologies I have been working with recently:
           <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <ul style="margin-left: 20px" class="custom-list ">
+            <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+              <ul class="custom-list ">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -183,7 +183,7 @@ if (isset($_GET['message_send_successfully'])) {
                 <li>NextJs</li>
               </ul>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-3 col-sm-3 col-md-3 col-lg-3">
               <ul class="custom-list">
                 <li>NodeJs</li>
                 <li>ExpressJs</li>
@@ -206,37 +206,37 @@ if (isset($_GET['message_send_successfully'])) {
       <div class=row>
         <div class="col-sm-12 col-md-6 col-lg-3">
           <div class=pdone>
-            <h1 class=counter>43</h1>
+            <h1 class=counter>03</h1>
             <h1>+</h1>
             <br>
-            <h5>Responsive Web Design</h5>
+            <h5>Running Projects</h5>
             <img src=images/funfact_wave.png alt>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
           <div class=pdone>
-            <h1 class=counter>62</h1>
+            <h1 class=counter>05</h1>
             <h1>+</h1>
             <br>
-            <h5>Back End Development</h5>
+            <h5>Front-End Projects</h5>
             <img src=images/funfact_wave.png alt>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
           <div class=pdone>
-            <h1 class=counter>28</h1>
+            <h1 class=counter>04</h1>
             <h1>+</h1>
             <br>
-            <h5>Woocommerce Website</h5>
+            <h5>Back-End Projects</h5>
             <img src=images/funfact_wave.png alt>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
           <div class=pdone>
-            <h1 class=counter>22</h1>
+            <h1 class=counter>03</h1>
             <h1>+</h1>
             <br>
-            <h5>Wordpress Theme Customize</h5>
+            <h5>Full-Stack Projects</h5>
             <img src=images/funfact_wave.png alt>
           </div>
         </div>
